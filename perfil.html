@@ -1,0 +1,173 @@
+<!doctype html>
+<html lang="pt-BR">
+
+    
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+        
+        <!-- CSS -->
+        <link href="./css/main.css" rel="stylesheet">
+        <link href="./css/global.css" rel="stylesheet">
+        <link href="./css/perfil.css" rel="stylesheet">
+        
+        
+        <title>Health Track - Meu Perfil</title>
+</head>
+
+<body>
+
+    
+    
+    <!--HEADER-->
+    <header class="header-top">
+        <a href="./home.html">
+            <img src="./imagens/Healt Tracklogo.png" class="img-fluid">
+        </a>
+        <nav class="navbar navbar-expand-lg navbar-light justify-content-between">
+            <a class="navbar-brand" href="#">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+                <li class="nav-login">
+                    <a class="nav-link disabled" href="#./login.html">Login</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./index.html#empresa">Sobre Nós</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./faleconosco.html">Fale Conosco</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+</header>
+<!--FIM HEADER-->
+
+
+<!--INÍCIO SIDEBAR-->
+<nav class="navbar navbar-light bg-light">
+    <div class="container-fluid">
+        <a class="user navbar-brand">
+            <img src="./imagens/avatar.png" alt="">
+            <h1>Seja bem vindo, Vinícius.</h1>
+        </a>
+    </div>
+</nav>
+<nav class="dp-menu">
+    <ul class="dp-menu-home">
+        <li><a href="./home.html">Home</a></li>
+        <li><a href="./exercicios.html">Exercícios</a></li>
+        <li><a href="#">Minhas Atividades</a></li>
+        <li><a href="./perfil.html">Perfil</a></li>
+    </ul>
+</nav>
+<!-- FIM SIDEBAR -->
+
+<!-- INÍCIO BODY PERFIL -->
+<form class="form">
+    <h1>Dados Pessoais</h1>
+    <div class="form-row">
+        <div class="form-group col-md-6">
+            <label for="inputEmail4">Nome</label>
+            <input type="text " class="form-control" id="inputName4" placeholder="Vinícius Lima">
+        </div>
+        <div class="form-group col-md-6">
+            <label for="inputEmail4">Email</label>
+            <input type="email " class="form-control" id="inputEmail4" placeholder="vinicius.lima@hotmail.com" disabled>
+        </div>
+        <div class="form-group col-md-6">
+            <label for="inputPassword4">Senha</label>
+            <input type="password" class="form-control" id="inputPassword4" placeholder="*******" disabled>
+        </div>
+    </div>
+    <div class="form-group">
+        <label for="inputAddress">Endereço</label>
+        <input type="text" class="form-control" id="inputAddress" placeholder="Av dos Bobos, nº 243">
+    </div>
+    <div class="form-group">
+        <label for="inputAddress2">Endereço 2</label>
+        <input type="text" class="form-control" id="inputAddress2" placeholder="Apartamento">
+    </div>
+    <div class="form-row">
+        <div class="form-group col-md-6">
+            <label for="inputCity">Cidade</label>
+            <input type="text" class="form-control" id="inputCity" placeholder="São Paulo">
+        </div>
+        <div class="form-group col-md-4">
+            <label for="inputEstado">Estado</label>
+            <select id="inputEstado" class="form-control">
+                <option selected>Escolher...</option>
+                <option>SP</option>
+                <option>RJ</option>
+                <option>MG</option>
+                <option>BA</option>
+                <option>RS</option>
+                <option>RN</option>
+            </select>
+        </div>
+        <div class="form-group col-md-2">
+            <label for="inputCEP">CEP</label>
+            <input type="text" class="form-control" id="inputCEP" placeholder="02244-001">
+        </div>
+        <div class="custom-file col-md-2">
+            <label class="custom-file-label" for="customFile">Foto</label>
+            <input type="file" class="custom-file-input" id="customFile" placeholder="Escolher Imagem">
+        </div>
+    </div>     
+</form>
+
+<!-- Botão modal -->
+<div class="btn-modal">
+    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#myModal">
+        Salvar
+    </button>
+</div>
+
+<!-- Modal -->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="myModalLabel">Deseja salvar as mudanças?</h4>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-bs-dismiss="modal">Fechar</button>
+                <button type="button" class="btn btn-primary" >Salvar</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- FIM BODY PERFIL -->
+
+<!--INÍCIO RODAPÉ-->
+
+<div class="rodape">
+    <h6 class="rodape-title">Health Track</h6>
+    <p class="rodape-text">
+        *Os resultados podem variar de pessoa para pessoa e não são garantidos. Exercício e dieta adequada são
+        necessários para
+        a perda de peso e alcançar a definição muscular. Os depoimentos apresentados podem ter usado mais de um produto
+        Health Track ou estendido o programa para alcançar seus resultados máximos.</p>
+        
+        <p class="rodape-text">Consulte o seu médico e siga todas as instruções de segurança antes de iniciar qualquer
+            programa de exercício, plano
+            nutricional ou utilizar qualquer produto de suplemento ou substituição de refeições, especialmente se você
+            estiver
+            grávida, amamentando, tem qualquer cuidado médico ou está tomando qualquer tipo de medicamento.</p>
+            
+            <p class="rodape-text2">Copyright 2022</p>
+            
+        </div>
+        
+        <!--FIM RODAPÉ-->
+        
+    </body>
+</html>

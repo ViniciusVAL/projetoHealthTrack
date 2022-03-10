@@ -1,0 +1,226 @@
+
+/* INÍCIO SLIDER*/
+
+.slider{
+    width: 100%;
+    height: 100vh;
+    padding: 0 10px;
+    background-image: linear-gradient(rgba(0,0,0,.5),rgba(0, 0, 0, 0.493)),
+    url(../imagens/Slider.png);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.slider-title{
+    margin-bottom: 2rem;
+    font-size: 7vmin; 
+    font-weight: 900;       
+}
+
+.slider-text{
+    margin-bottom: 2rem;
+    font-size: 4vmin;
+}
+
+.slider-link{
+    border: 1px solid var(--secondary);
+    padding: 08px 30px;
+    background-color: var(--secondary);
+    border-radius: 70px;
+    font-size: 3vmin;
+    font-weight: 700;
+    color: #000;
+    text-transform: uppercase;
+}
+
+.slider-link:hover{
+    background-color: transparent;
+    transition: .3s;
+}
+/* FIM SLIDER*/
+
+/* INÍCIO TOUR*/
+.tour{
+    width: 80%;
+    min-height: 50vh;
+    margin: 0 auto;
+    padding: 30px 0 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.tour-title{
+    width: 80%;
+    margin-bottom: 20px;
+    font-size: 5vmin;
+    text-align: center;
+}
+
+.tour-text{
+    font-size: 3vmin;
+}
+.line{
+    width: 250px;
+    height: 2px;
+    background-color: var(--secondary);
+    border-radius: 8px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.tour-list{
+    margin-left: 10%;
+    width: 80%;
+    display: flex;
+    align-items:center;
+    flex-wrap: wrap;
+}   
+
+.tour-list-item{
+    margin-top:30px;
+    max-width: 350px;
+    text-align: center;   
+}
+
+.img-tour {
+    width: 80%;
+    margin: 10px;
+    transition: .5s;
+    cursor: pointer;     
+}
+
+.img-tour:hover {
+    transform: scale(1.2);
+}
+
+.tour-list p{
+    margin-top: 10px;
+}
+
+/* FIM TOUR*/
+
+/* INICIO CAROUSEL*/
+
+.depoimentos-title{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 5vmin;
+    text-align: center;
+}
+
+.carousel{
+    width: 100%;
+    height: 80%;     
+    background-color: var(--secondary);
+}
+
+.carousel-inner img{
+   width: 30%;
+    
+}
+
+.carousel-item{   
+    height: 50vmin;
+    align-items: center;    
+}
+
+.carousel-caption h5{
+    color: #fff;
+    font-size: 3vmin;
+    font-weight: 900;
+}
+
+.carousel-caption p{
+    color: #000;
+    font-size: 2.5vmin;
+    font-weight: 500;
+    font-style: italic;
+    margin-bottom: auto;
+}
+
+/* FIM CAROUSEL*/
+
+/* INÍCIO SOBRE NÓS*/
+
+.empresa{
+    width: 100%;
+    height: 80vh;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;        
+}
+
+.empresa-title{
+    margin-bottom: 30px;
+    margin-top: 40px;
+    font-size: 5vmin;
+    text-align: center;
+}
+
+.empresa-line{
+    width: 250px;
+    height: 2px;
+    background-color: var(--secondary);
+    border-radius: 8px;
+    margin-bottom: 20px;   
+}   
+
+.empresa-cards{
+    width: 100vmin;
+    min-height: 50%;
+    padding: 0 0 30px;
+    text-align: center;
+    display: flex;
+    align-items: center;   
+}
+
+.card-body h6{
+    text-transform: uppercase;
+    font-weight: 1000;
+    font-size: 2vmin;
+}
+
+
+.card-body p{
+    font-size: 2.5vmin;
+}
+
+
+/* FIM SOBRE NÓS*/
+
+/*RODAPÉ*/
+    .rodape{
+        width: 80%;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .rodape-title{
+        font-weight: 900;
+        font-size: 2vmin;
+    }
+
+    .rodape-text{
+        font-size: 1.5vmin;
+        color: gray;
+        text-align: center;
+    }
+
+    .rodape-text2{
+        font-size: 1vmin;
+        font-weight: 800;
+    }
+        
+/*FIM RODAPÉ*/

@@ -1,0 +1,60 @@
+
+
+/* INICIO FORMULÁRIO*/
+
+.formulario {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 50px;
+    padding: 0 30px;
+}
+
+.formulario img{
+width: 80vmin;
+margin: 5vmin 0 0; 
+padding: 30px;
+display: flex;
+align-items: center;
+align-content: center;
+}
+
+.form-group{
+    width: 50vmin;
+    min-height: 50%;
+    margin-top: 20px;
+}
+
+.btn{  
+    margin-top: 10px;
+}
+
+/* FIM FORMULÁRIO*/
+
+/*RODAPÉ*/
+    .rodape{
+        width: 80%;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .rodape-title{
+        font-weight: 900;
+        font-size: 2vmin;
+    }
+
+    .rodape-text{
+        font-size: 1.5vmin;
+        color: gray;
+        text-align: center;
+    }
+
+    .rodape-text2{
+        font-size: 1vmin;
+        font-weight: 800;
+    }
+        
+/*FIM RODAPÉ*/

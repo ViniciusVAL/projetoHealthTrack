@@ -1,0 +1,183 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+}
+
+/*INICIO SIDEBAR*/
+
+.container-fluid{
+    width: 100%;
+    height: 8vmin;
+    align-items: center;      
+}
+
+.user{
+    width: 100%;
+    height: 10vmin;            
+    display: flex;   
+    align-items: center;
+    flex-direction: row-reverse;  
+    justify-content: right;  
+}
+
+.user h1{
+    font-size: 3vmin;
+    font-weight: 800;
+}
+
+.user img{    
+    width: 25vmin;
+    height: 15vmin;        
+}
+
+
+.dp-menu ul li{
+    background-color: var(--primary);
+    display: inline-block;
+    text-decoration: none;
+    font-size: 1.5ex;          
+}   
+
+.dp-menu ul{       
+    list-style-type: none;     
+    background-color: var(--primary);    
+}
+
+.dp-menu ul li a{
+    align-items: center;
+    padding: 10px;
+}  
+
+.dp-menu ul li a:hover{
+    background-color:#fff;
+    position: relative;
+    transition: 0.5s;
+}   
+/*FIM SIDEBAR*/
+
+/*INÍCIO TABLE*/
+
+.title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2%;
+    margin-bottom: 5%;
+}
+.table{
+    width: 80%;
+    
+    padding: 5vmin;
+    margin: 0 10%;     
+}
+
+.table-text{
+    font-size: 2.5vmin;        
+}
+
+/*FIM TABLE*/
+
+/*INICIO BODY*/
+
+        .b-skills {
+            border-top: 1px solid #f9f9f9;
+            margin:5vmin;           
+            text-align: center;
+        }
+
+        .b-skills:last-child {
+            margin-bottom: 200px;
+        }
+
+        .b-skills h2 {
+            margin-bottom: 50px;
+            font-weight: 900;
+            text-transform: uppercase;
+        }
+
+        .skill-item {
+            position: relative;
+            max-width: 30vmin;
+            width: 50%;
+            margin-bottom: 30px;
+            color: #555;
+        }
+
+        .chart-container {
+            position: relative;
+            width: 100%;
+            height: 0;
+            padding-top: 100%;
+            margin-bottom: 27px;
+        }
+
+        .skill-item .chart,
+        .skill-item .chart canvas {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100% !important;
+            height: 100% !important;
+        }
+
+        .skill-item .chart:before {
+            content: "";
+            width: 0;
+            height: 100%;
+        }
+
+        .skill-item .chart:before,
+        .skill-item .percent {
+            display: inline-block;
+            vertical-align: middle;
+        }
+
+        .skill-item .percent {
+            position: relative;
+            line-height: 1;
+            font-size: 30px;
+            font-weight: 900;
+            z-index: 2;
+        }
+
+        .skill-item .percent:after {
+            content: attr(data-after);
+            font-size: 20px;
+        }
+
+        p {
+            font-weight: 900;
+        }       
+/*FIM BODY*/
+
+/*RODAPÉ*/
+    .rodape{
+        width: 80%;
+        margin-top: 30;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .rodape-title{
+        font-weight: 900;
+        font-size: 2vmin;
+    }
+
+    .rodape-text{
+        font-size: 1.5vmin;
+        color: gray;
+        text-align: center;
+    }
+
+    .rodape-text2{
+        font-size: 2vmin;
+        font-weight: 800;
+    }
+        
+/*FIM RODAPÉ*/
